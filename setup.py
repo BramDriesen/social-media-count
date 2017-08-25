@@ -11,6 +11,6 @@ setup(
     description='Library to fetch likes/followers from multiple platforms.',
     long_description=open('README.txt').read(),
     install_requires=[
-        "tweepy >= 3.5.0",
+        'tweepy>=3.5.0',
     ],
 )
