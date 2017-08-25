@@ -3,7 +3,7 @@ python:
   - 3.6
 sudo: false
 install:
-  - travis_retry python setup.py develop
+  - travis_retry pip install social-media-count/ --upgrade
   - travis_retry pip install pytest-cov coverage coveralls
 #script:
 #  - coverage run --source=sandman2 setup.py test
