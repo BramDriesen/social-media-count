@@ -6,6 +6,6 @@ install:
   - travis_retry pip install .
   - travis_retry pip install pytest-cov coverage coveralls
 script:
-  - coverage run --source=social-media-count/ ./setup.py test
+  - coverage run --source=social-media-count
 after_success:
   coveralls
